@@ -1,12 +1,11 @@
-
 [build-system]
 requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pybatis"
-version = "0.4.1"
-description = "Keep it simple handling of SQL queries with Jinja templates, inspired by legendary library MyBatis."
+name = "sqlrender"
+version = "1.0.0"
+description = "Simple and fast sql templating engine inspired by the classical library MyBatis."
 readme = "README.md"
 license = { file = "LICENSE" }
 authors = [
@@ -14,8 +13,8 @@ authors = [
 ]
 requires-python = ">=3.6"
 dependencies = [
-    "boto3",
+    "bottle",
 ]
 
 [project.urls]
-Homepage = "https://github.com/kacirekj/saws"
+Homepage = "https://github.com/kacirekj/pybatis"
