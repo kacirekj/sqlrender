@@ -1,0 +1,21 @@
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pybatis"
+version = "0.4.1"
+description = "Keep it simple handling of SQL queries with Jinja templates, inspired by legendary library MyBatis."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Jiri Kacirek", email = "kacirek.j@gmail.com" }
+]
+requires-python = ">=3.6"
+dependencies = [
+    "boto3",
+]
+
+[project.urls]
+Homepage = "https://github.com/kacirekj/saws"
