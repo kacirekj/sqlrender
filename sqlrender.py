@@ -1,7 +1,7 @@
 from bottle import SimpleTemplate
 
 
-class SqlTemplate:
+class SqlRender:
     def __init__(self, template):
         self.template = template
         self.sTemplate = SimpleTemplate(tpl)
