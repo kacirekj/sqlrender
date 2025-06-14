@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sqlrender"
-version = "1.0.1"
+version = "1.0.3"
 description = "Simple and fast sql templating engine inspired by the classical library MyBatis."
 readme = "README.md"
 license = { file = "LICENSE" }

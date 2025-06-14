@@ -1,3 +1,5 @@
 .idea/
 dist/
 sqlrender.egg-info/
+__pycache__/
+tests/__pycache__
